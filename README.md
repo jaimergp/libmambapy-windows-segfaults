@@ -3,3 +3,7 @@
 See https://github.com/conda/conda-libmamba-solver/issues/334 for details.
 
 Releases are used to distribute patched libmambapy builds with extra debugging.
+
+- 2024-12-19: Original debugging libraries. Will print the stack if segfaults occur.
+- 2024-12-20: Same, but with some extra assertions about pointers.
+- 2024-12-23: No `ObjTransaction::order` calls. Some pointer assertions.
