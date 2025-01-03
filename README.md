@@ -8,3 +8,4 @@ Releases are used to distribute patched libmambapy builds with extra debugging.
 - 2024-12-20: Same, but with some extra assertions about pointers.
 - 2024-12-23: No `ObjTransaction::order` calls. Some pointer assertions.
 - 2024-12-24: Check destroyed objects and maybe have a more detailed stack.
+- 2025-01-02: Some more fixes for the stack.
