@@ -10,3 +10,4 @@ Releases are used to distribute patched libmambapy builds with extra debugging.
 - 2024-12-24: Check destroyed objects and maybe have a more detailed stack.
 - 2025-01-02: Some more fixes for the stack.
 - 2025-01-06: Some more logging fixes, potential workaround included.
+- 2025-01-16: Same as last one but with some additional C runtime DLLs.
