@@ -14,3 +14,4 @@ Releases are used to distribute patched libmambapy builds with extra debugging.
 - 2025-01-17: Get some info around `-ObjPool`.
 - 2025-01-21: Try to get some more info on those pesky transaction objects.
 - 2025-01-22: Leak Transaction objects on purpose. Include custom debug libsolv build.
+- 2025-01-30: Two builds, one control and one with a fix. None of the log anymore. The control one should fail.
