@@ -18,3 +18,4 @@ Releases are used to distribute patched libmambapy builds with extra debugging.
 - 2025-02-11: Two builds, one control (should segfault) and one with the fix (should not). Built off recent `main` (2.0.6ish). Release builds, no debugging.
   - The fix will defer freeing libsolv's transactions (the workaround) until just after deleting a pool, at the end of the program (fail-safe) or if the function that does the freeing is called explicitly; exposed in the bindings the function that does the freeing of transactions (for later test if necessary), it's called `free_all_deferred_transactions_workaround()` and has no parameters.
 - 2025-02-17: Alternative workaround with corrected tree structure
+- 2025-02-18: One more attempt at the workaround. All libsolv objects will leak.
